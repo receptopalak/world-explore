@@ -63,7 +63,7 @@ export default {
         .catch((err) => console.log(err));
 
       // Instance map using leaflet
-      map = L.map("maps").setView([latitude, longitude], 13);
+      map = L.map("maps").setView([latitude, longitude],8);
 
       // Tile layer using key api at cloudmade.com
       L.tileLayer(
